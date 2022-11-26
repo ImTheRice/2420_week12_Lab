@@ -72,7 +72,7 @@ The `active (running)` indicates all is good
 
   3. Restart NGINX with `sudo systemctl restart nginx.service`
  
- ![restart nginx](/images/nginxrestart.png)
+![restart nginx](/images/nginxrestart.png)
   
   4. The website should be accesible from [IP ADDRESS] in your browser
   
@@ -80,7 +80,26 @@ The `active (running)` indicates all is good
    
   5. Nice the site is now up
   
-## Install Firewall
-
-
+## Install Firewall (DO)
   
+  1. Click on your droplet
+  
+  2. Click **Networking**
+  
+![list of items](/images/droplistfirewall.png)
+
+  3. Click **Edit** under Firewalls
+    
+![edit firewalls](/images/addfirewall.png)
+
+  4. Clcik **New rule** under Inbound Rules and select **HTTP**
+ 
+![add rule](/images/inboundfirewall.png)
+  
+  5. Click **Droplets** then **Add Droplets** and find your droplet to add the firewall to it
+  
+![add droplet](/images/adddroplet.png)
+
+  6. Verify that you can still see the website after reloading and that you can still connect to the droplet through SSH
+  
+![verify SSH](/images/firewallconnect.png)
