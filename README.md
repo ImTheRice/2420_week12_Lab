@@ -103,3 +103,5 @@ The `active (running)` indicates all is good
   6. Verify that you can still see the website after reloading and that you can still connect to the droplet through SSH
   
 ![verify SSH](/images/firewallconnect.png)
+
+  7. Congrats you have completed this lab, go sleep
